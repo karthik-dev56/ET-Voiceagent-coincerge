@@ -1,0 +1,21 @@
+[project]
+name = "et-times-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckduckgo-search>=8.1.1",
+    "langchain-community>=0.4.1",
+    "livekit-agents>=1.5.1",
+    "livekit-plugins-deepgram>=1.5.1",
+    "livekit-plugins-google>=1.5.1",
+    "livekit-plugins-murf>=1.5.1",
+    "livekit-plugins-noise-cancellation>=0.2.5",
+    "livekit-plugins-openai>=1.5.1",
+    "livekit-plugins-silero>=1.5.1",
+    "mem0ai>=1.0.8",
+    "python-dotenv>=1.2.2",
+    "requests>=2.33.0",
+    "twilio>=9.10.4",
+]
